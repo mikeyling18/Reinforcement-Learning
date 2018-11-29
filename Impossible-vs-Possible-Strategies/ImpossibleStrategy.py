@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from util import get_stats, get_portfolio_value
 
 
-def useBestStrategy(df_prices, symbols, sd, ed, start_val):
+def useImpossibleStrategy(df_prices, symbols, sd, ed, start_val):
 
     # fill back in time, then fill forward
     df_prices = df_prices.fillna(method='bfill')

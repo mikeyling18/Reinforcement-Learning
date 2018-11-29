@@ -10,7 +10,7 @@ import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
-def useManualStrategy(df_prices, symbols, sd, ed, start_val):
+def usePossibleStrategy(df_prices, symbols, sd, ed, start_val):
 
     orders = []
     short_Xs = []
